@@ -2898,7 +2898,7 @@ cameraRaw	Yellow	Sárga
 	Phone	Telefon
 	Photo	Fotó
 	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	A PhotoCraft egy másik képszerkesztő billentyűparancs-készletét találta ezen a számítógépen: {set}. Ebben {n} billentyűparancs eltér a PhotoCraftétól. Importálod?
-	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	A PhotoCraft tovább próbálkozik; amíg a mentés nem sikerül, a beállítások módosításai bezáráskor elvesznek.
+	STAR Photo keeps retrying; until a save succeeds, preference changes are lost when it closes.	A STAR Photo tovább próbálkozik; amíg a mentés nem sikerül, a beállítások módosításai bezáráskor elvesznek.
 	PhotoCraft Manages Colors	A PhotoCraft kezeli a színeket
 	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo – nyílt forráskódú, natív képszerkesztő Rust nyelven.
 	Picas	Pica
@@ -3016,7 +3016,7 @@ cameraRaw	Yellow	Sárga
 	The document does not have an embedded colour profile. Working space: {working}.	A dokumentumnak nincs beágyazott színprofilja. Munkaszíntér: {working}.
 	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	A dokumentum beágyazott színprofilja eltér a munkaszíntértől.\nBeágyazott: {embedded}\nMunkaszíntér: {working}
 	The keyboard shortcut set was not imported: {error}	A billentyűparancs-készlet importálása nem sikerült: {error}
-	These settings aren't available in PhotoCraft yet.	Ezek a beállítások a PhotoCraftban még nem érhetők el.
+	These settings aren't available in STAR Photo yet.	Ezek a beállítások a PhotoCraftban még nem érhetők el.
 	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	A folytatáshoz a kitöltőréteget raszterizálni kell. A kitöltés tartalma ezután nem lesz szerkeszthető. Raszterizálod a réteget?
 	This layer must be rasterized before proceeding.	A folytatáshoz a réteget raszterizálni kell.
 	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	A folytatáshoz az alakzatréteget raszterizálni kell. Ezután alakzatként nem lesz szerkeszthető. Raszterizálod az alakzatot?
@@ -3442,7 +3442,7 @@ cameraRaw	Yellow	Sárga
 	Opened {name}	Megnyitva: {name}
 	Opened {url}	Megnyitva: {url}
 	Opening…	Megnyitás…
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Vagy állítsd X11-re a Beállítások › Teljesítmény › Linuxos megjelenítőszerver értékét: a PhotoCraft ekkor mindig XWayland alatt indul.
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Vagy állítsd X11-re a Beállítások › Teljesítmény › Linuxos megjelenítőszerver értékét: a STAR Photo ekkor mindig XWayland alatt indul.
 	Original Ratio	Eredeti arány
 	Other	Egyéb
 	Out	Végpont
@@ -3461,9 +3461,9 @@ cameraRaw	Yellow	Sárga
 	Performance	Teljesítmény
 	Perimeter	Kerület
 	Perspective Crop Tool	Perspektivikus körbevágás
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	A PhotoCraft a CPU-s képösszeállítót használja. Az ablak megjelenítése ettől még használhatja a grafikus adaptert.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	A STAR Photo a CPU-s képösszeállítót használja. Az ablak megjelenítése ettől még használhatja a grafikus adaptert.
 	PhotoCraft website	PhotoCraft-weboldal
-	PhotoCraft — Screen Color Picker	PhotoCraft — Képernyő-színválasztó
+	STAR Photo — Screen Color Picker	STAR Photo — Képernyő-színválasztó
 	Photomerge	Fotóegyesítés
 	Pick a screen pixel or press Esc to cancel	Válassz egy pixelt a képernyőn, vagy nyomd meg az Esc billentyűt a megszakításhoz
 	Pick screen color	Szín kiválasztása a képernyőről
@@ -3544,7 +3544,7 @@ cameraRaw	Yellow	Sárga
 	Sample a pixel anywhere on the screen	Mintavétel a képernyő bármely pixeléből
 	Sampler	Színmintavevő
 	Save in background	Mentés a háttérben
-	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	A GPU-gyorsítás újrapróbálásához mentsd a munkádat, majd indítsd újra a PhotoCraftot. Ebben a munkamenetben a CPU-s megjelenítés marad aktív.
+	Save your work and restart STAR Photo to retry GPU acceleration. CPU rendering remains active for this session.	A GPU-gyorsítás újrapróbálásához mentsd a munkádat, majd indítsd újra a PhotoCraftot. Ebben a munkamenetben a CPU-s megjelenítés marad aktív.
 	Saved a copy as {path}	Másolat mentve: {path}
 	Saved {name}	Mentve: {name}
 	Saved {path}; image assets: {n} in {dir}	Mentve: {path}; képelemek: {n} ({dir})
@@ -3634,7 +3634,7 @@ cameraRaw	Yellow	Sárga
 	This session: {reason}	Ebben a munkamenetben: {reason}
 	Tiny	Apró
 	To Center	Középre
-	To drop files, start PhotoCraft under XWayland: `{command}`	Fájlok behúzásához indítsd a PhotoCraftot XWayland alatt: `{command}`
+	To drop files, start STAR Photo under XWayland: `{command}`	Fájlok behúzásához indítsd a PhotoCraftot XWayland alatt: `{command}`
 	Tool	Eszköz
 	Top Left	Bal felső
 	Top Right	Jobb felső
@@ -4162,17 +4162,17 @@ cameraRaw	Yellow	Sárga
 	Shadow Color	Árnyék színe
 	Shadow Opacity	Árnyék fedettsége
 	Check for Updates…	Frissítések keresése…
-	PhotoCraft Updates	PhotoCraft-frissítések
+	STAR Photo Updates	STAR Photo-frissítések
 	Checking for updates…	Frissítések keresése…
 	Open the release page to choose an installer for your system.	Nyissa meg a kiadás oldalát, és válassza ki a rendszerének megfelelő telepítőt.
 	Open Download Page	Letöltési oldal megnyitása
-	PhotoCraft is up to date.	A PhotoCraft naprakész.
+	STAR Photo is up to date.	A STAR Photo naprakész.
 	Could not check for updates.	Nem sikerült ellenőrizni a frissítéseket.
 	Updates have not been checked yet.	A frissítések még nem lettek ellenőrizve.
 	Check Again	Újraellenőrzés
 	Automatically Check for Updates	Frissítések automatikus keresése
 	Installed version: {version}	Telepített verzió: {version}
-	PhotoCraft {version} is available.	Elérhető a PhotoCraft {version}.
+	STAR Photo {version} is available.	Elérhető a STAR Photo {version}.
 # Embedded Profile Mismatch: profile names beside the choices, Remember this choice
 	Use the embedded profile ({profile})	A beágyazott profil használata ({profile})
 	Convert to the working space ({profile})	Átalakítás a munkaszíntérbe ({profile})
@@ -4198,9 +4198,9 @@ cameraRaw	Yellow	Sárga
 	Bicubic Smoother	Simább bikubikus
 	Bicubic Sharper	Élesebb bikubikus
 	Pasting from other apps is unavailable	A beillesztés más alkalmazásokból nem érhető el
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	A PhotoCraft ebben a munkamenetben nem fér hozzá a rendszer vágólapjához. Waylanden a Flatpak homokozó elrejti azt a protokollt, amelyen keresztül más alkalmazások képei olvashatók.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Ha más alkalmazásokból szeretne beilleszteni, indítsa a PhotoCraftot XWayland alatt: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Nincs mit beilleszteni: a PhotoCraft itt nem tudja olvasni a rendszer vágólapját
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	A STAR Photo ebben a munkamenetben nem fér hozzá a rendszer vágólapjához. Waylanden a Flatpak homokozó elrejti azt a protokollt, amelyen keresztül más alkalmazások képei olvashatók.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Ha más alkalmazásokból szeretne beilleszteni, indítsa a PhotoCraftot XWayland alatt: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Nincs mit beilleszteni: a STAR Photo itt nem tudja olvasni a rendszer vágólapját
 	Delete this set	Készlet törlése
 	New Set…	Új készlet…
 	PhotoCraft Defaults	PhotoCraft alapértelmezések

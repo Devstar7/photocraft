@@ -1112,8 +1112,8 @@
 	Drop an image or PSD anywhere to open it.	画像や PSD をここにドロップすると開きます。
 	Native file drag-and-drop is unavailable	Wayland ではネイティブのファイルドラッグ＆ドロップを利用できません
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Wayland ではネイティブのファイルドラッグ＆ドロップはまだ利用できません。[ファイル › 開く] を使うか、ファイルマネージャーで画像をコピーして {paste} で貼り付けてください。
-	To drop files, start PhotoCraft under XWayland: `{command}`	ファイルをドロップするには、XWayland 上で PhotoCraft を起動してください: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	または 環境設定 › パフォーマンス › Linux ディスプレイサーバー を X11 にすると、PhotoCraft は常に XWayland 上で起動します。
+	To drop files, start STAR Photo under XWayland: `{command}`	ファイルをドロップするには、XWayland 上で STAR Photo を起動してください: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	または 環境設定 › パフォーマンス › Linux ディスプレイサーバー を X11 にすると、STAR Photo は常に XWayland 上で起動します。
 	Edit › Paste	[編集 › 貼り付け]
 	Duplicate Layers…	レイヤーを複製…
 	Duplicate style	スタイルを複製
@@ -2123,7 +2123,7 @@
 	System Info	システム情報
 	More panels	その他のパネル
 	More documents	その他のドキュメント
-	These settings aren't available in PhotoCraft yet.	これらの設定は PhotoCraft ではまだ使用できません。
+	These settings aren't available in STAR Photo yet.	これらの設定は STAR Photo ではまだ使用できません。
 	Graphics	グラフィックス
 	Reset GPU Backend	GPU バックエンドをリセット
 	Applies at next launch.	次回の起動時に適用されます。
@@ -2253,7 +2253,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	自動モードは利用可能な場合にGPUを使用し、エラー時はCPU描画に切り替えます。
 	Switched to CPU rendering	CPU 描画に切り替えました
 	GPU acceleration could not continue. Your documents are unchanged.	GPU アクセラレーションを継続できませんでした。ドキュメントは変更されていません。
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft は CPU で画像を合成しています。ウィンドウは引き続きグラフィックスアダプターを使用する場合があります。
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo は CPU で画像を合成しています。ウィンドウは引き続きグラフィックスアダプターを使用する場合があります。
 	Retry GPU requires a restart. Save your work first.	GPU の再試行には再起動が必要です。先に作業を保存してください。
 	Retry GPU tries the graphics processor again now.	GPU を再試行すると、すぐにグラフィックプロセッサーをもう一度試します。
 	GPU acceleration resumed.	GPU アクセラレーションを再開しました。
@@ -3539,7 +3539,7 @@ fontWeight	Italic	斜体
 	Color to Alpha…	カラーを透明に…
 	Transparency Threshold	透明のしきい値
 	Opacity Threshold	不透明度のしきい値
-	PhotoCraft — Screen Color Picker	PhotoCraft — スクリーンカラーピッカー
+	STAR Photo — Screen Color Picker	STAR Photo — スクリーンカラーピッカー
 
 	Rasterize svg groups deeper than	この深さを超える SVG グループをラスタライズ
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 でこのしきい値は無効になります。100 階層を超えて入れ子になった SVG グループは常にラスタライズされます。
@@ -3940,17 +3940,17 @@ curves	Smooth	スムーズ
 	Shadow Tint	シャドウの色かぶり補正
 # PhotoCraft release checks.
 	Check for Updates…	アップデートを確認…
-	PhotoCraft Updates	PhotoCraft のアップデート
+	STAR Photo Updates	STAR Photo のアップデート
 	Checking for updates…	アップデートを確認中…
 	Open the release page to choose an installer for your system.	リリースページでお使いのシステム用のインストーラーを選択してください。
 	Open Download Page	ダウンロードページを開く
-	PhotoCraft is up to date.	PhotoCraft は最新です。
+	STAR Photo is up to date.	STAR Photo は最新です。
 	Could not check for updates.	アップデートを確認できませんでした。
 	Updates have not been checked yet.	まだアップデートを確認していません。
 	Check Again	再確認
 	Automatically Check for Updates	アップデートを自動的に確認
 	Installed version: {version}	インストール済みのバージョン: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} が利用可能です。
+	STAR Photo {version} is available.	STAR Photo {version} が利用可能です。
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	ヒストリーパネルのソース状態からペイントします
 	Sets the source for the history brush	ヒストリーブラシのソースを設定します
@@ -3984,9 +3984,9 @@ curves	Smooth	スムーズ
 	Bicubic Smoother	バイキュービック法 - 滑らか
 	Bicubic Sharper	バイキュービック法 - シャープ
 	Pasting from other apps is unavailable	他のアプリからの貼り付けは利用できません
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	このセッションでは PhotoCraft がシステムのクリップボードにアクセスできません。Wayland では、Flatpak のサンドボックスが他のアプリの画像を読み取るためのプロトコルを隠します。
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	他のアプリから貼り付けるには、XWayland 上で PhotoCraft を起動してください: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	貼り付けるものがありません: ここでは PhotoCraft がシステムのクリップボードを読み取れません
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	このセッションでは STAR Photo がシステムのクリップボードにアクセスできません。Wayland では、Flatpak のサンドボックスが他のアプリの画像を読み取るためのプロトコルを隠します。
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	他のアプリから貼り付けるには、XWayland 上で STAR Photo を起動してください: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	貼り付けるものがありません: ここでは STAR Photo がシステムのクリップボードを読み取れません
 	Delete this set	このセットを削除
 	New Set…	新規セット…
 	PhotoCraft Defaults	PhotoCraft 初期設定

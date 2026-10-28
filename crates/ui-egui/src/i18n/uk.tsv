@@ -1510,8 +1510,8 @@
 	Use File › Open, or paste a copied image with {paste}.	Скористайтеся меню Файл › Відкрити або вставте скопійоване зображення за допомогою {paste}.
 	Native file drag-and-drop is unavailable	Нативне перетягування файлів недоступне
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Нативне перетягування файлів у Wayland ще не підтримується. Скористайтеся меню Файл › Відкрити або скопіюйте зображення у файловому менеджері та вставте його за допомогою {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Щоб перетягувати файли, запустіть PhotoCraft під XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Або виберіть X11 у Налаштування › Продуктивність › Сервер відображення Linux: PhotoCraft завжди запускатиметься під XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Щоб перетягувати файли, запустіть STAR Photo під XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Або виберіть X11 у Налаштування › Продуктивність › Сервер відображення Linux: STAR Photo завжди запускатиметься під XWayland.
 	Edit › Paste	Редагування › Вставити
 	Photo	Фото
 	Print	Друк
@@ -1696,7 +1696,7 @@
 	Don't Save	Не зберігати
 	No	Ні
 	Yes	Так
-	These settings aren't available in PhotoCraft yet.	Ці параметри ще недоступні у PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Ці параметри ще недоступні у STAR Photo.
 	Shortcut removed.	Клавіатурне скорочення вилучено.
 	All shortcuts reset to PhotoCraft defaults.	Усі клавіатурні скорочення скинуто до типових значень PhotoCraft.
 	Add Shortcut	Додати клавіатурне скорочення
@@ -2506,7 +2506,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Автоматичний режим використовує прискорення GPU, коли воно доступне, та переходить на рендеринг CPU в разі помилок.
 	Switched to CPU rendering	Перехід на рендеринг CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Прискорення GPU не може продовжувати роботу. Ваші документи не змінено.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft використовує компонувальник зображень CPU. Вікно може й далі використовувати ваш графічний адаптер.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo використовує компонувальник зображень CPU. Вікно може й далі використовувати ваш графічний адаптер.
 	Retry GPU requires a restart. Save your work first.	Повторна спроба використати GPU потребує перезапуску. Спочатку збережіть роботу.
 	Retry GPU tries the graphics processor again now.	Повторити спробу з GPU — одразу знову спробувати графічний процесор.
 	GPU acceleration resumed.	Прискорення GPU відновлено.
@@ -3758,7 +3758,7 @@ cameraData	Lens	Об'єктив
 	Click: smooth point · Double-click: corner · Drag a point: move · Click first point: close · {key} finish	Клацання: плавна точка · Подвійне клацання: кут · Перетягування точки: перемістити · Клацання першої точки: замкнути · {key}: завершити
 	Search settings…	Пошук налаштувань…
 	No matching settings	Немає відповідних налаштувань
-	PhotoCraft — Screen Color Picker	PhotoCraft — Піпетка кольору екрана
+	STAR Photo — Screen Color Picker	STAR Photo — Піпетка кольору екрана
 # Edit › Content-Aware Fill workspace
 	Sampling Brush Tool	Пензель області вибірки
 	Sampling Area Overlay	Накладання області вибірки
@@ -3961,17 +3961,17 @@ curves	Smooth	Згладити
 	Shadow Tint	Відтінок тіней
 # PhotoCraft release checks.
 	Check for Updates…	Перевірити оновлення…
-	PhotoCraft Updates	Оновлення PhotoCraft
+	STAR Photo Updates	Оновлення STAR Photo
 	Checking for updates…	Перевірка оновлень…
 	Open the release page to choose an installer for your system.	Відкрийте сторінку випуску й виберіть інсталятор для своєї системи.
 	Open Download Page	Відкрити сторінку завантаження
-	PhotoCraft is up to date.	PhotoCraft оновлено до останньої версії.
+	STAR Photo is up to date.	STAR Photo оновлено до останньої версії.
 	Could not check for updates.	Не вдалося перевірити оновлення.
 	Updates have not been checked yet.	Оновлення ще не перевірялися.
 	Check Again	Перевірити знову
 	Automatically Check for Updates	Автоматично перевіряти оновлення
 	Installed version: {version}	Встановлена версія: {version}
-	PhotoCraft {version} is available.	Доступна версія PhotoCraft {version}.
+	STAR Photo {version} is available.	Доступна версія STAR Photo {version}.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Малює з вихідного стану панелі «Історія»
 	Sets the source for the history brush	Задає джерело для пензля історії
@@ -4007,9 +4007,9 @@ curves	Smooth	Згладити
 	Bicubic Smoother	Бікубічна, гладкіша
 	Bicubic Sharper	Бікубічна, чіткіша
 	Pasting from other apps is unavailable	Вставлення з інших застосунків недоступне
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	У цьому сеансі PhotoCraft не має доступу до системного буфера обміну. У Wayland пісочниця Flatpak приховує протокол, через який читаються зображення з інших застосунків.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Щоб вставляти з інших застосунків, запустіть PhotoCraft під XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Нічого вставити: тут PhotoCraft не може прочитати системний буфер обміну
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	У цьому сеансі STAR Photo не має доступу до системного буфера обміну. У Wayland пісочниця Flatpak приховує протокол, через який читаються зображення з інших застосунків.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Щоб вставляти з інших застосунків, запустіть STAR Photo під XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Нічого вставити: тут STAR Photo не може прочитати системний буфер обміну
 	Delete this set	Видалити цей набір
 	New Set…	Новий набір…
 	PhotoCraft Defaults	Стандартні PhotoCraft

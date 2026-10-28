@@ -1115,7 +1115,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Η αυτόματη λειτουργία χρησιμοποιεί επιτάχυνση GPU όταν είναι διαθέσιμη και επιστρέφει στην CPU σε περίπτωση σφάλματος.
 	Switched to CPU rendering	Έγινε μετάβαση σε απόδοση μέσω CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Η επιτάχυνση GPU δεν μπόρεσε να συνεχιστεί. Τα έγγραφά σας δεν έχουν αλλάξει.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	Το PhotoCraft χρησιμοποιεί σύνθεση εικόνας μέσω CPU. Το παράθυρο μπορεί να εξακολουθεί να χρησιμοποιεί την κάρτα γραφικών.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	Το STAR Photo χρησιμοποιεί σύνθεση εικόνας μέσω CPU. Το παράθυρο μπορεί να εξακολουθεί να χρησιμοποιεί την κάρτα γραφικών.
 	Retry GPU requires a restart. Save your work first.	Η νέα προσπάθεια χρήσης GPU απαιτεί επανεκκίνηση. Αποθηκεύστε πρώτα την εργασία σας.
 	Retry GPU tries the graphics processor again now.	Η νέα προσπάθεια χρήσης GPU δοκιμάζει ξανά τον επεξεργαστή γραφικών αμέσως.
 	GPU acceleration resumed.	Η επιτάχυνση GPU συνεχίζεται.
@@ -3199,7 +3199,7 @@
 	Text Position:	Θέση κειμένου:
 	Texture Each Tip	Υφή σε κάθε αποτύπωμα πινέλου
 	Texturizer	Εφαρμογή υφής
-	These settings aren't available in PhotoCraft yet.	Αυτές οι ρυθμίσεις δεν είναι ακόμη διαθέσιμες στο PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Αυτές οι ρυθμίσεις δεν είναι ακόμη διαθέσιμες στο STAR Photo.
 	Thin	Λεπτό
 	Threshold Level	Στάθμη κατωφλίου
 	Thumbnail size (smallest: list)	Μέγεθος μικρογραφίας (μικρότερο: λίστα)
@@ -3571,8 +3571,8 @@ cameraRaw	Yellow	Κίτρινο
 	Red Eye Tool	Κόκκινα μάτια (Red Eye Tool)
 	Seafoam	Θαλασσί
 	Srgb	sRGB
-	To drop files, start PhotoCraft under XWayland: `{command}`	Για να αποθέσετε αρχεία, εκκινήστε το PhotoCraft μέσω XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Ή ορίστε Προτιμήσεις › Επιδόσεις › Διακομιστής οθόνης Linux σε X11: το PhotoCraft θα εκκινεί τότε πάντα μέσω XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Για να αποθέσετε αρχεία, εκκινήστε το STAR Photo μέσω XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Ή ορίστε Προτιμήσεις › Επιδόσεις › Διακομιστής οθόνης Linux σε X11: το STAR Photo θα εκκινεί τότε πάντα μέσω XWayland.
 	Vulkan	Vulkan
 	WebP (lossless)	WebP (χωρίς απώλειες)
 	Webp	WebP
@@ -3625,7 +3625,7 @@ fontWeight	Thin	Πολύ λεπτά
 	Color to Alpha…	Χρώμα σε άλφα…
 	Transparency Threshold	Κατώφλι διαφάνειας
 	Opacity Threshold	Κατώφλι αδιαφάνειας
-	PhotoCraft — Screen Color Picker	PhotoCraft — Επιλογή χρώματος οθόνης
+	STAR Photo — Screen Color Picker	STAR Photo — Επιλογή χρώματος οθόνης
 
 	Rasterize svg groups deeper than	Ραστεροποίηση ομάδων SVG πέρα από αυτό το βάθος
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	Το 0 απενεργοποιεί αυτό το όριο· ομάδες SVG με ένθεση βαθύτερη από 100 επίπεδα ραστεροποιούνται πάντα.
@@ -3959,17 +3959,17 @@ curves	Smooth	Εξομάλυνση
 	Shadow Tint	Χροιά σκιών
 # PhotoCraft release checks.
 	Check for Updates…	Έλεγχος ενημερώσεων…
-	PhotoCraft Updates	Ενημερώσεις PhotoCraft
+	STAR Photo Updates	Ενημερώσεις STAR Photo
 	Checking for updates…	Έλεγχος για ενημερώσεις…
 	Open the release page to choose an installer for your system.	Ανοίξτε τη σελίδα της έκδοσης για να επιλέξετε πρόγραμμα εγκατάστασης για το σύστημά σας.
 	Open Download Page	Άνοιγμα σελίδας λήψης
-	PhotoCraft is up to date.	Το PhotoCraft είναι ενημερωμένο.
+	STAR Photo is up to date.	Το STAR Photo είναι ενημερωμένο.
 	Could not check for updates.	Δεν ήταν δυνατός ο έλεγχος ενημερώσεων.
 	Updates have not been checked yet.	Δεν έχει γίνει ακόμη έλεγχος ενημερώσεων.
 	Check Again	Νέος έλεγχος
 	Automatically Check for Updates	Αυτόματος έλεγχος ενημερώσεων
 	Installed version: {version}	Εγκατεστημένη έκδοση: {version}
-	PhotoCraft {version} is available.	Το PhotoCraft {version} είναι διαθέσιμο.
+	STAR Photo {version} is available.	Το STAR Photo {version} είναι διαθέσιμο.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Βάφει από την κατάσταση πηγής του πίνακα Ιστορικό
 	Sets the source for the history brush	Ορίζει την πηγή για το πινέλο ιστορικού
@@ -4007,9 +4007,9 @@ curves	Smooth	Εξομάλυνση
 	Bicubic Smoother	Δικυβική πιο ομαλή
 	Bicubic Sharper	Δικυβική πιο ευκρινής
 	Pasting from other apps is unavailable	Η επικόλληση από άλλες εφαρμογές δεν είναι διαθέσιμη
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	Το PhotoCraft δεν έχει πρόσβαση στο πρόχειρο του συστήματος σε αυτή τη συνεδρία. Στο Wayland, το sandbox του Flatpak κρύβει το πρωτόκολλο μέσω του οποίου διαβάζονται εικόνες από άλλες εφαρμογές.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Για επικόλληση από άλλες εφαρμογές, ξεκινήστε το PhotoCraft σε XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Τίποτα για επικόλληση: το PhotoCraft δεν μπορεί να διαβάσει εδώ το πρόχειρο του συστήματος
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	Το STAR Photo δεν έχει πρόσβαση στο πρόχειρο του συστήματος σε αυτή τη συνεδρία. Στο Wayland, το sandbox του Flatpak κρύβει το πρωτόκολλο μέσω του οποίου διαβάζονται εικόνες από άλλες εφαρμογές.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Για επικόλληση από άλλες εφαρμογές, ξεκινήστε το STAR Photo σε XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Τίποτα για επικόλληση: το STAR Photo δεν μπορεί να διαβάσει εδώ το πρόχειρο του συστήματος
 	Delete this set	Διαγραφή αυτού του συνόλου
 	New Set…	Νέο σύνολο…
 	PhotoCraft Defaults	Προεπιλογές PhotoCraft

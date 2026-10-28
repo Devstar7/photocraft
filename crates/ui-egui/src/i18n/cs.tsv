@@ -1124,8 +1124,8 @@
 	Drop an image or PSD anywhere to open it.	Přetáhněte sem obrázek nebo PSD a otevře se.
 	Native file drag-and-drop is unavailable	Nativní přetahování souborů ve Waylandu není dostupné
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Nativní přetahování souborů ve Waylandu zatím není podporováno. Použijte Soubor › Otevřít, nebo obrázek zkopírujte ve správci souborů a vložte ho pomocí {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Chcete-li soubory přetahovat, spusťte PhotoCraft v XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Nebo nastavte Předvolby › Výkon › Zobrazovací server Linuxu na X11: PhotoCraft se pak vždy spustí v XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Chcete-li soubory přetahovat, spusťte STAR Photo v XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Nebo nastavte Předvolby › Výkon › Zobrazovací server Linuxu na X11: STAR Photo se pak vždy spustí v XWayland.
 	Edit › Paste	Úpravy › Vložit
 	Duplicate Layers…	Duplikovat vrstvy…
 	Duplicate style	Duplikovat styl
@@ -2138,7 +2138,7 @@
 	System Info	Informace o systému
 	More panels	Další panely
 	More documents	Další dokumenty
-	These settings aren't available in PhotoCraft yet.	Tato nastavení zatím v aplikaci PhotoCraft nejsou k dispozici.
+	These settings aren't available in STAR Photo yet.	Tato nastavení zatím v aplikaci STAR Photo nejsou k dispozici.
 	Graphics	Grafika
 	Reset GPU Backend	Obnovit grafický backend
 	Applies at next launch.	Projeví se při příštím spuštění.
@@ -2271,7 +2271,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Automatický režim používá dostupnou GPU a při chybě přejde na CPU.
 	Switched to CPU rendering	Přepnuto na vykreslování CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Akcelerace GPU nemohla pokračovat. Dokumenty zůstaly nezměněny.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft skládá obraz pomocí CPU. Okno může nadále používat grafický adaptér.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo skládá obraz pomocí CPU. Okno může nadále používat grafický adaptér.
 	Retry GPU requires a restart. Save your work first.	Opakování GPU vyžaduje restart. Nejprve uložte práci.
 	Retry GPU tries the graphics processor again now.	Opakování GPU zkusí grafický procesor znovu hned teď.
 	GPU acceleration resumed.	Akcelerace GPU obnovena.
@@ -2520,7 +2520,7 @@ fontWeight	Italic	Kurzíva
 	Color to Alpha…	Barva na alfu…
 	Transparency Threshold	Práh průhlednosti
 	Opacity Threshold	Práh krytí
-	PhotoCraft — Screen Color Picker	PhotoCraft — Výběr barvy obrazovky
+	STAR Photo — Screen Color Picker	STAR Photo — Výběr barvy obrazovky
 
 	Rasterize svg groups deeper than	Rasterizovat skupiny SVG hlubší než tato úroveň
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 vypne tento práh; skupiny SVG vnořené hlouběji než 100 úrovní se rastrují vždy.
@@ -3704,9 +3704,9 @@ curves	Smooth	Vyhladit
 	{message} (notes: {n}; {warning})	{message} (poznámky: {n}; {warning})
 @plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} (+{n} další upozornění k přednastavení štětců)|{warning} (+{n} další upozornění k přednastavení štětců)|{warning} (+{n} dalších upozornění k přednastavení štětců)
 	Preferences can't be saved	Předvolby nelze uložit
-	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft se nadále pokouší o uložení; dokud nebude úspěšné, změny předvoleb se při zavření ztratí.
+	STAR Photo keeps retrying; until a save succeeds, preference changes are lost when it closes.	STAR Photo se nadále pokouší o uložení; dokud nebude úspěšné, změny předvoleb se při zavření ztratí.
 	GPU retry scheduled	Naplánován další pokus o použití GPU
-	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Chcete-li znovu zkusit akceleraci GPU, uložte práci a restartujte PhotoCraft. V této relaci zůstane aktivní vykreslování pomocí CPU.
+	Save your work and restart STAR Photo to retry GPU acceleration. CPU rendering remains active for this session.	Chcete-li znovu zkusit akceleraci GPU, uložte práci a restartujte STAR Photo. V této relaci zůstane aktivní vykreslování pomocí CPU.
 	GPU device was lost; using the CPU renderer.	Spojení se zařízením GPU bylo ztraceno; používá se vykreslování pomocí CPU.
 	GPU error; using the CPU renderer.	Chyba GPU; používá se vykreslování pomocí CPU.
 @plural	{what} with {n} warning|{what} with {n} warnings	{what} ({n} upozornění)|{what} ({n} upozornění)|{what} ({n} upozornění)
@@ -3873,17 +3873,17 @@ navigator	Zoom	Zvětšení
 	Shadow Tint	Odstín stínů
 # PhotoCraft release checks.
 	Check for Updates…	Zkontrolovat aktualizace…
-	PhotoCraft Updates	Aktualizace PhotoCraft
+	STAR Photo Updates	Aktualizace STAR Photo
 	Checking for updates…	Kontrola aktualizací…
 	Open the release page to choose an installer for your system.	Otevřete stránku vydání a vyberte instalační program pro svůj systém.
 	Open Download Page	Otevřít stránku ke stažení
-	PhotoCraft is up to date.	PhotoCraft je aktuální.
+	STAR Photo is up to date.	STAR Photo je aktuální.
 	Could not check for updates.	Aktualizace se nepodařilo zkontrolovat.
 	Updates have not been checked yet.	Aktualizace ještě nebyly zkontrolovány.
 	Check Again	Zkontrolovat znovu
 	Automatically Check for Updates	Automaticky kontrolovat aktualizace
 	Installed version: {version}	Nainstalovaná verze: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} je k dispozici.
+	STAR Photo {version} is available.	STAR Photo {version} je k dispozici.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Maluje ze zdrojového stavu panelu Historie
 	Sets the source for the history brush	Nastaví zdroj pro štětec historie
@@ -3919,9 +3919,9 @@ navigator	Zoom	Zvětšení
 	Bicubic Smoother	Bikubická hladší
 	Bicubic Sharper	Bikubická ostřejší
 	Pasting from other apps is unavailable	Vkládání z jiných aplikací není k dispozici
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft v této relaci nemá přístup k systémové schránce. Na Waylandu sandbox Flatpaku skrývá protokol, přes který se čtou obrázky z jiných aplikací.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Chcete-li vkládat z jiných aplikací, spusťte PhotoCraft pod XWaylandem: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Není co vložit: PhotoCraft zde nemůže číst systémovou schránku
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	STAR Photo v této relaci nemá přístup k systémové schránce. Na Waylandu sandbox Flatpaku skrývá protokol, přes který se čtou obrázky z jiných aplikací.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Chcete-li vkládat z jiných aplikací, spusťte STAR Photo pod XWaylandem: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Není co vložit: STAR Photo zde nemůže číst systémovou schránku
 	Delete this set	Smazat tuto sadu
 	New Set…	Nová sada…
 	PhotoCraft Defaults	Výchozí PhotoCraft

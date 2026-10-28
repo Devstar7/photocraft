@@ -1109,8 +1109,8 @@
 	Drop an image or PSD anywhere to open it.	Trascina un'immagine o PSD ovunque per aprirlo.
 	Native file drag-and-drop is unavailable	Il drag-and-drop nativo file non è disponibile su Wayland
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Il drag-and-drop nativo non è ancora supportato su Wayland. Usa File › Apri, oppure copia l'immagine nel file manager e incollala con {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Per trascinare file, avvia PhotoCraft sotto XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Oppure imposta Preferenze › Prestazioni › Server grafico Linux su X11: PhotoCraft partirà sempre sotto XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Per trascinare file, avvia STAR Photo sotto XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Oppure imposta Preferenze › Prestazioni › Server grafico Linux su X11: STAR Photo partirà sempre sotto XWayland.
 	Edit › Paste	Modifica › Incolla
 	Duplicate Layers…	Duplica livelli…
 	Duplicate style	Duplica stile
@@ -2121,7 +2121,7 @@
 	System Info	Info sistema
 	More panels	Altri pannelli
 	More documents	Altri documenti
-	These settings aren't available in PhotoCraft yet.	Queste impostazioni non sono ancora disponibili in PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Queste impostazioni non sono ancora disponibili in STAR Photo.
 	Graphics	Grafica
 	Reset GPU Backend	Reimposta backend GPU
 	Applies at next launch.	Si applica al prossimo avvio.
@@ -2343,7 +2343,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Automatico usa accelerazione GPU quando disponibile e ripiega su CPU in caso di errori.
 	Switched to CPU rendering	Passato a rendering CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Accelerazione GPU non ha potuto continuare. I documenti sono invariati.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft sta componendo immagini su CPU. La finestra può ancora usare adattatore grafico.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo sta componendo immagini su CPU. La finestra può ancora usare adattatore grafico.
 	Retry GPU requires a restart. Save your work first.	Riprovare GPU richiede riavvio. Salva prima il lavoro.
 	Retry GPU tries the graphics processor again now.	Riprova GPU riprova subito il processore grafico.
 	GPU acceleration resumed.	Accelerazione GPU ripresa.
@@ -2590,7 +2590,7 @@ fontWeight	Italic	Corsivo
 	Color to Alpha…	Colore ad alfa…
 	Transparency Threshold	Soglia di trasparenza
 	Opacity Threshold	Soglia di opacità
-	PhotoCraft — Screen Color Picker	PhotoCraft — Selettore colore schermo
+	STAR Photo — Screen Color Picker	STAR Photo — Selettore colore schermo
 
 	Rasterize svg groups deeper than	Rasterizza i gruppi SVG oltre questa profondità
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 disattiva questa soglia; i gruppi SVG annidati oltre 100 livelli vengono sempre rasterizzati.
@@ -4082,9 +4082,9 @@ layerLabel	No Color	Nessun colore
 	Saved {path}; image assets: {n} in {dir}	Salvato: {path}; risorse immagine: {n} in {dir}
 	{message} (notes: {n}; {warning})	{message} (note: {n}; {warning})
 	Preferences can't be saved	Impossibile salvare le preferenze
-	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft continua a riprovare; finché un salvataggio non riesce, le modifiche alle preferenze andranno perse alla chiusura.
+	STAR Photo keeps retrying; until a save succeeds, preference changes are lost when it closes.	STAR Photo continua a riprovare; finché un salvataggio non riesce, le modifiche alle preferenze andranno perse alla chiusura.
 	GPU retry scheduled	Nuovo tentativo GPU programmato
-	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salva il lavoro e riavvia PhotoCraft per riprovare l'accelerazione GPU. Per questa sessione resta attivo il rendering su CPU.
+	Save your work and restart STAR Photo to retry GPU acceleration. CPU rendering remains active for this session.	Salva il lavoro e riavvia STAR Photo per riprovare l'accelerazione GPU. Per questa sessione resta attivo il rendering su CPU.
 	GPU device was lost; using the CPU renderer.	Dispositivo GPU perso; uso il rendering su CPU.
 	GPU error; using the CPU renderer.	Errore GPU; uso il rendering su CPU.
 	Couldn't open {name}: {error}	Impossibile aprire {name}: {error}
@@ -4225,17 +4225,17 @@ navigator	Zoom	Zoom
 	Shadow Tint	Tinta ombre
 # PhotoCraft release checks.
 	Check for Updates…	Cerca aggiornamenti…
-	PhotoCraft Updates	Aggiornamenti di PhotoCraft
+	STAR Photo Updates	Aggiornamenti di STAR Photo
 	Checking for updates…	Ricerca aggiornamenti…
 	Open the release page to choose an installer for your system.	Apri la pagina della versione per scegliere un programma di installazione per il tuo sistema.
 	Open Download Page	Apri pagina di download
-	PhotoCraft is up to date.	PhotoCraft è aggiornato.
+	STAR Photo is up to date.	STAR Photo è aggiornato.
 	Could not check for updates.	Impossibile cercare aggiornamenti.
 	Updates have not been checked yet.	Gli aggiornamenti non sono ancora stati verificati.
 	Check Again	Controlla di nuovo
 	Automatically Check for Updates	Cerca automaticamente aggiornamenti
 	Installed version: {version}	Versione installata: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} è disponibile.
+	STAR Photo {version} is available.	STAR Photo {version} è disponibile.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Dipinge dallo stato di origine del pannello Cronologia
 	Sets the source for the history brush	Imposta l'origine del pennello storia
@@ -4433,9 +4433,9 @@ shape	Appearance	Aspetto
 	Bicubic Smoother	Bicubica più morbida
 	Bicubic Sharper	Bicubica più nitida
 	Pasting from other apps is unavailable	Incollare da altre app non è disponibile
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft non può accedere agli appunti di sistema in questa sessione. Su Wayland, la sandbox di Flatpak nasconde il protocollo con cui vengono lette le immagini delle altre app.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Per incollare da altre app, avvia PhotoCraft in XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Niente da incollare: qui PhotoCraft non può leggere gli appunti di sistema
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	STAR Photo non può accedere agli appunti di sistema in questa sessione. Su Wayland, la sandbox di Flatpak nasconde il protocollo con cui vengono lette le immagini delle altre app.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Per incollare da altre app, avvia STAR Photo in XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Niente da incollare: qui STAR Photo non può leggere gli appunti di sistema
 	Delete this set	Elimina questo set
 	New Set…	Nuovo set…
 	PhotoCraft Defaults	Predefiniti di PhotoCraft

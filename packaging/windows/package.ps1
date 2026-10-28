@@ -113,8 +113,8 @@ if ($env:CRAFT_FONTS_DIR) {
 # (their text sits on the right; the left 164 px are ours). Both must be 24-bit BMPs.
 function New-InstallerArt([string] $IconPng, [string] $BannerOut, [string] $DialogOut) {
   Add-Type -AssemblyName System.Drawing
-  $paper = [System.Drawing.ColorTranslator]::FromHtml('#efe9dc')
-  $accent = [System.Drawing.ColorTranslator]::FromHtml('#2f7bf5')
+  $paper = [System.Drawing.ColorTranslator]::FromHtml('#f4f6f6')
+  $accent = [System.Drawing.ColorTranslator]::FromHtml('#f05a5b')
   $icon = [System.Drawing.Image]::FromFile($IconPng)
   try {
     foreach ($spec in @(@($BannerOut, 493, 58), @($DialogOut, 493, 312))) {

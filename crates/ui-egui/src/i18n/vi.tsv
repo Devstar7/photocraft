@@ -1544,7 +1544,7 @@ cameraRaw	Shadows	Vùng tối
 	Subdivisions	Phân chia
 	System title bar	Thanh tiêu đề hệ thống
 	Text file	Tệp văn bản
-	These settings aren't available in PhotoCraft yet.	Các thiết lập này chưa có trong PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Các thiết lập này chưa có trong STAR Photo.
 	Tiny	Rất nhỏ
 	Traditional (72.27 points/inch)	Truyền thống (72,27 point/inch)
 	Transparency & Gamut	Độ trong suốt & gam màu
@@ -1614,7 +1614,7 @@ cameraRaw	Shadows	Vùng tối
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Kéo thả tệp gốc chưa được hỗ trợ trên Wayland. Dùng Tệp › Mở, hoặc chạy PhotoCraft dưới XWayland với `WAYLAND_DISPLAY= photocraft`.
 	Switched to CPU rendering	Đã chuyển sang kết xuất CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Không thể tiếp tục tăng tốc GPU. Tài liệu của bạn không đổi.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft đang dùng bộ kết hợp ảnh CPU. Cửa sổ vẫn có thể dùng bộ điều hợp đồ họa của bạn.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo đang dùng bộ kết hợp ảnh CPU. Cửa sổ vẫn có thể dùng bộ điều hợp đồ họa của bạn.
 	Retry GPU	Thử lại GPU
 	Retry GPU requires a restart. Save your work first.	Thử lại GPU cần khởi động lại. Hãy lưu công việc trước.
 	Retry GPU tries the graphics processor again now.	Thử lại GPU sẽ thử lại bộ xử lý đồ họa ngay bây giờ.
@@ -2393,7 +2393,7 @@ shape	Appearance	Diện mạo
 	Next Document	Tài liệu tiếp theo
 	Open EXR Parts…	Mở các phần EXR…
 	Pencil	Bút chì
-	PhotoCraft — Screen Color Picker	PhotoCraft — Bộ chọn màu màn hình
+	STAR Photo — Screen Color Picker	STAR Photo — Bộ chọn màu màn hình
 	Previous Document	Tài liệu trước
 	Refine	Tinh chỉnh
 	Remove from Recent	Xóa khỏi Gần đây
@@ -2588,8 +2588,8 @@ shape	Appearance	Diện mạo
 	Basic	Cơ bản
 	Brush Preset picker	Bộ chọn cài đặt cọ
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Chưa hỗ trợ kéo-thả tệp gốc trên Wayland. Hãy dùng Tệp › Mở, hoặc sao chép ảnh trong trình quản lý tệp và dán bằng {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Để thả tệp, hãy khởi chạy PhotoCraft dưới XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Hoặc đặt Tùy chọn › Hiệu năng › Máy chủ hiển thị Linux thành X11: PhotoCraft sẽ luôn khởi chạy dưới XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Để thả tệp, hãy khởi chạy STAR Photo dưới XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Hoặc đặt Tùy chọn › Hiệu năng › Máy chủ hiển thị Linux thành X11: STAR Photo sẽ luôn khởi chạy dưới XWayland.
 	Kerning	Điều chỉnh khoảng cách chữ
 	Layout	Bố cục
 	Metrics	Số đo
@@ -3724,17 +3724,17 @@ curves	Smooth	Làm mượt
 	Kept {name}: written by another application	Đã giữ {name}: do ứng dụng khác ghi
 	Shadow Tint	Sắc độ bóng tối
 	Check for Updates…	Kiểm tra bản cập nhật…
-	PhotoCraft Updates	Bản cập nhật PhotoCraft
+	STAR Photo Updates	Bản cập nhật STAR Photo
 	Checking for updates…	Đang kiểm tra bản cập nhật…
 	Open the release page to choose an installer for your system.	Mở trang phát hành để chọn bộ cài đặt cho hệ thống của bạn.
 	Open Download Page	Mở trang tải xuống
-	PhotoCraft is up to date.	PhotoCraft đã được cập nhật.
+	STAR Photo is up to date.	STAR Photo đã được cập nhật.
 	Could not check for updates.	Không thể kiểm tra bản cập nhật.
 	Updates have not been checked yet.	Chưa kiểm tra bản cập nhật.
 	Check Again	Kiểm tra lại
 	Automatically Check for Updates	Tự động kiểm tra bản cập nhật
 	Installed version: {version}	Phiên bản đã cài: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} đã có sẵn.
+	STAR Photo {version} is available.	STAR Photo {version} đã có sẵn.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Vẽ từ trạng thái nguồn của bảng Lịch sử
 	Sets the source for the history brush	Đặt nguồn cho cọ lịch sử
@@ -3770,9 +3770,9 @@ curves	Smooth	Làm mượt
 	Bicubic Smoother	Bicubic mượt hơn
 	Bicubic Sharper	Bicubic sắc hơn
 	Pasting from other apps is unavailable	Không thể dán từ ứng dụng khác
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft không truy cập được bộ nhớ tạm của hệ thống trong phiên này. Trên Wayland, sandbox của Flatpak ẩn giao thức dùng để đọc hình ảnh từ ứng dụng khác.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Để dán từ ứng dụng khác, hãy khởi động PhotoCraft dưới XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Không có gì để dán: PhotoCraft không thể đọc bộ nhớ tạm của hệ thống ở đây
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	STAR Photo không truy cập được bộ nhớ tạm của hệ thống trong phiên này. Trên Wayland, sandbox của Flatpak ẩn giao thức dùng để đọc hình ảnh từ ứng dụng khác.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Để dán từ ứng dụng khác, hãy khởi động STAR Photo dưới XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Không có gì để dán: STAR Photo không thể đọc bộ nhớ tạm của hệ thống ở đây
 	Delete this set	Xóa bộ này
 	New Set…	Bộ mới…
 	PhotoCraft Defaults	Mặc định của PhotoCraft

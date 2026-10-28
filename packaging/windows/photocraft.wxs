@@ -46,6 +46,7 @@
       <Directory Id="INSTALLFOLDER" Name="STAR Photo" />
     </StandardDirectory>
     <StandardDirectory Id="ProgramMenuFolder" />
+    <StandardDirectory Id="DesktopFolder" />
 
     <!-- An upgrade installs where the user put the previous version (written by PhotocraftApp). -->
     <Property Id="INSTALLFOLDER">
@@ -161,6 +162,14 @@
 
       <Component Id="PhotocraftCli">
         <File Id="PhotocraftCliExe" Source="$(var.BinDir)\photocraft-cli.exe" KeyPath="yes" />
+      </Component>
+          <!-- STAR7: desktop shortcut, removed on uninstall. Non-advertised shortcut in a profile
+           folder needs an HKCU registry key path (ICE38, ICE43, ICE57). -->
+      <Component Id="DesktopShortcut" Directory="DesktopFolder" Guid="3B8E7C21-5F4A-4D9B-9E62-7A1C0D5E8F47">
+        <Shortcut Id="DesktopShortcut" Name="STAR Photo" Description="STAR Photo image editor"
+            Target="[INSTALLFOLDER]photocraft.exe" WorkingDirectory="INSTALLFOLDER" Icon="PhotocraftIcon.exe" IconIndex="0" />
+        <RegistryValue Root="HKCU" Key="Software\STAR7\STAR Photo" Name="DesktopShortcut"
+            Value="1" Type="string" KeyPath="yes" />
       </Component>
     </ComponentGroup>
   </Fragment>

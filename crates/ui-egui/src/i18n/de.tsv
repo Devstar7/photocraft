@@ -1108,8 +1108,8 @@
 	Drop an image or PSD anywhere to open it.	Ziehe ein Bild oder PSD an eine beliebige Stelle, um es zu öffnen.
 	Native file drag-and-drop is unavailable	Natives Ziehen und Ablegen von Dateien ist nicht verfügbar
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Natives Ziehen und Ablegen von Dateien wird unter Wayland noch nicht unterstützt. Nutze Datei › Öffnen oder kopiere das Bild im Dateimanager und füge es mit {paste} ein.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Um Dateien abzulegen, starte PhotoCraft unter XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Oder stelle Voreinstellungen › Leistung › Linux-Anzeigeserver auf X11: PhotoCraft startet dann immer unter XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Um Dateien abzulegen, starte STAR Photo unter XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Oder stelle Voreinstellungen › Leistung › Linux-Anzeigeserver auf X11: STAR Photo startet dann immer unter XWayland.
 	Edit › Paste	Bearbeiten › Einfügen
 	Duplicate Layers…	Ebenen duplizieren…
 	Duplicate style	Stil duplizieren
@@ -2109,7 +2109,7 @@
 	System Info	Systeminformationen
 	More panels	Weitere Bedienfelder
 	More documents	Weitere Dokumente
-	These settings aren't available in PhotoCraft yet.	Diese Einstellungen gibt es in PhotoCraft noch nicht.
+	These settings aren't available in STAR Photo yet.	Diese Einstellungen gibt es in STAR Photo noch nicht.
 	Graphics	Grafik
 	Reset GPU Backend	GPU-Backend zurücksetzen
 	Applies at next launch.	Wird beim nächsten Start angewendet.
@@ -2323,7 +2323,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Automatisch nutzt GPU-Beschleunigung, wenn verfügbar, und fällt bei Fehlern auf CPU-Rendering zurück.
 	Switched to CPU rendering	Auf CPU-Rendering umgeschaltet
 	GPU acceleration could not continue. Your documents are unchanged.	GPU-Beschleunigung konnte nicht fortgesetzt werden. Deine Dokumente sind unverändert.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft nutzt den CPU-Bildkompositor. Das Fenster kann weiterhin deinen Grafikadapter verwenden.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo nutzt den CPU-Bildkompositor. Das Fenster kann weiterhin deinen Grafikadapter verwenden.
 	Retry GPU requires a restart. Save your work first.	GPU erneut versuchen erfordert einen Neustart. Speichere zuerst deine Arbeit.
 	Retry GPU tries the graphics processor again now.	GPU erneut versuchen versucht es sofort wieder mit dem Grafikprozessor.
 	GPU acceleration resumed.	GPU-Beschleunigung wieder aktiv.
@@ -2563,7 +2563,7 @@ fontWeight	Italic	Kursiv
 	Color to Alpha…	Farbe zu Alpha…
 	Transparency Threshold	Transparenz-Schwellenwert
 	Opacity Threshold	Deckkraft-Schwellenwert
-	PhotoCraft — Screen Color Picker	PhotoCraft — Bildschirmfarbenauswahl
+	STAR Photo — Screen Color Picker	STAR Photo — Bildschirmfarbenauswahl
 
 	Rasterize svg groups deeper than	SVG-Gruppen ab dieser Tiefe rastern
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 schaltet diese Schwelle aus; SVG-Gruppen, die tiefer als 100 Ebenen verschachtelt sind, werden immer gerastert.
@@ -3277,17 +3277,17 @@ curves	Smooth	Glätten
 	Shadow Tint	Schattentönung
 # PhotoCraft release checks.
 	Check for Updates…	Nach Updates suchen…
-	PhotoCraft Updates	PhotoCraft-Updates
+	STAR Photo Updates	STAR Photo-Updates
 	Checking for updates…	Suche nach Updates…
 	Open the release page to choose an installer for your system.	Öffnen Sie die Versionsseite und wählen Sie ein Installationspaket für Ihr System.
 	Open Download Page	Downloadseite öffnen
-	PhotoCraft is up to date.	PhotoCraft ist auf dem neuesten Stand.
+	STAR Photo is up to date.	STAR Photo ist auf dem neuesten Stand.
 	Could not check for updates.	Updates konnten nicht geprüft werden.
 	Updates have not been checked yet.	Es wurde noch nicht nach Updates gesucht.
 	Check Again	Erneut prüfen
 	Automatically Check for Updates	Automatisch nach Updates suchen
 	Installed version: {version}	Installierte Version: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} ist verfügbar.
+	STAR Photo {version} is available.	STAR Photo {version} ist verfügbar.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Malt aus dem Quellzustand des Protokollbedienfelds
 	Sets the source for the history brush	Legt die Quelle für den Protokollpinsel fest
@@ -3326,9 +3326,9 @@ curves	Smooth	Glätten
 	Bicubic Smoother	Bikubisch glatter
 	Bicubic Sharper	Bikubisch schärfer
 	Pasting from other apps is unavailable	Einfügen aus anderen Apps ist nicht verfügbar
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft kann in dieser Sitzung nicht auf die Systemzwischenablage zugreifen. Unter Wayland verbirgt eine Flatpak-Sandbox das Protokoll, über das Bilder aus anderen Apps gelesen werden.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Um aus anderen Apps einzufügen, starte PhotoCraft unter XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Nichts einzufügen: PhotoCraft kann die Systemzwischenablage hier nicht lesen
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	STAR Photo kann in dieser Sitzung nicht auf die Systemzwischenablage zugreifen. Unter Wayland verbirgt eine Flatpak-Sandbox das Protokoll, über das Bilder aus anderen Apps gelesen werden.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Um aus anderen Apps einzufügen, starte STAR Photo unter XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Nichts einzufügen: STAR Photo kann die Systemzwischenablage hier nicht lesen
 	Delete this set	Diesen Satz löschen
 	New Set…	Neuer Satz…
 	PhotoCraft Defaults	PhotoCraft-Standard

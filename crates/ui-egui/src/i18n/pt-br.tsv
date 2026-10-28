@@ -2082,7 +2082,7 @@
 	System Info	Informações do sistema
 	More panels	Mais painéis
 	More documents	Mais documentos
-	These settings aren't available in PhotoCraft yet.	Estas configurações ainda não estão disponíveis no PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Estas configurações ainda não estão disponíveis no STAR Photo.
 	Graphics	Gráficos
 	Reset GPU Backend	Redefinir backend da GPU
 	Applies at next launch.	Aplica-se na próxima inicialização.
@@ -2674,8 +2674,8 @@
 	Overprint	Superimposição
 	Native file drag-and-drop is unavailable	Arrastar e soltar arquivos não está disponível
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	O recurso nativo de arrastar e soltar arquivos ainda não funciona no Wayland. Use Arquivo › Abrir ou copie a imagem no gerenciador de arquivos e cole-a com {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Para soltar arquivos, execute o PhotoCraft no XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Ou defina Preferências › Desempenho › Servidor de exibição Linux como X11: o PhotoCraft passa a iniciar sempre no XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Para soltar arquivos, execute o STAR Photo no XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Ou defina Preferências › Desempenho › Servidor de exibição Linux como X11: o STAR Photo passa a iniciar sempre no XWayland.
 	Edit › Paste	Editar › Colar
 	Use File › Open, or paste a copied image with {paste}.	Use Arquivo › Abrir ou cole uma imagem copiada com {paste}.
 	Mixer Brush Tool	Ferramenta Pincel misturador
@@ -2691,7 +2691,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	O modo automático usa a aceleração por GPU quando disponível e volta para a renderização por CPU em caso de erros.
 	Switched to CPU rendering	Renderização alterada para CPU
 	GPU acceleration could not continue. Your documents are unchanged.	A aceleração por GPU não pôde continuar. Seus documentos não foram alterados.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	O PhotoCraft está usando o compositor de imagens da CPU. A janela ainda pode usar seu adaptador gráfico.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	O STAR Photo está usando o compositor de imagens da CPU. A janela ainda pode usar seu adaptador gráfico.
 	Retry GPU requires a restart. Save your work first.	Tentar a GPU novamente exige reiniciar. Salve seu trabalho primeiro.
 	Retry GPU tries the graphics processor again now.	Tentar a GPU novamente tenta o processador gráfico de novo agora.
 	GPU acceleration resumed.	Aceleração por GPU retomada.
@@ -2944,7 +2944,7 @@ fontWeight	Italic	Itálico
 	Color to Alpha…	Cor para alfa…
 	Transparency Threshold	Limiar de transparência
 	Opacity Threshold	Limiar de opacidade
-	PhotoCraft — Screen Color Picker	PhotoCraft — Seletor de cor da tela
+	STAR Photo — Screen Color Picker	STAR Photo — Seletor de cor da tela
 
 	Rasterize svg groups deeper than	Rasterizar grupos SVG além desta profundidade
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 desativa este limite; grupos SVG aninhados em mais de 100 níveis são sempre rasterizados.
@@ -4051,17 +4051,17 @@ layerLabel	No Color	Sem cor
 	Shadow Tint	Matiz das sombras
 # PhotoCraft release checks.
 	Check for Updates…	Verificar atualizações…
-	PhotoCraft Updates	Atualizações do PhotoCraft
+	STAR Photo Updates	Atualizações do STAR Photo
 	Checking for updates…	Verificando atualizações…
 	Open the release page to choose an installer for your system.	Abra a página da versão para escolher um instalador para o seu sistema.
 	Open Download Page	Abrir página de download
-	PhotoCraft is up to date.	O PhotoCraft está atualizado.
+	STAR Photo is up to date.	O STAR Photo está atualizado.
 	Could not check for updates.	Não foi possível verificar atualizações.
 	Updates have not been checked yet.	As atualizações ainda não foram verificadas.
 	Check Again	Verificar novamente
 	Automatically Check for Updates	Verificar atualizações automaticamente
 	Installed version: {version}	Versão instalada: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} está disponível.
+	STAR Photo {version} is available.	STAR Photo {version} está disponível.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Pinta a partir do estado de origem do painel Histórico
 	Sets the source for the history brush	Define a origem do pincel do histórico
@@ -4097,9 +4097,9 @@ layerLabel	No Color	Sem cor
 	Bicubic Smoother	Bicúbica mais suave
 	Bicubic Sharper	Bicúbica mais nítida
 	Pasting from other apps is unavailable	Colar de outros aplicativos não está disponível
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	O PhotoCraft não consegue acessar a área de transferência do sistema nesta sessão. No Wayland, a sandbox do Flatpak oculta o protocolo pelo qual as imagens de outros aplicativos são lidas.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Para colar de outros aplicativos, execute o PhotoCraft no XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Nada para colar: o PhotoCraft não consegue ler a área de transferência do sistema aqui
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	O STAR Photo não consegue acessar a área de transferência do sistema nesta sessão. No Wayland, a sandbox do Flatpak oculta o protocolo pelo qual as imagens de outros aplicativos são lidas.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Para colar de outros aplicativos, execute o STAR Photo no XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Nada para colar: o STAR Photo não consegue ler a área de transferência do sistema aqui
 	Delete this set	Excluir este conjunto
 	New Set…	Novo conjunto…
 	PhotoCraft Defaults	Padrões do PhotoCraft
@@ -4268,7 +4268,7 @@ layerLabel	No Color	Sem cor
 	This session: {reason}	Nesta sessão: {reason}
 	Platform: {os} {arch}	Plataforma: {os} {arch}
 	GPU retry scheduled	Nova tentativa da GPU agendada
-	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salve seu trabalho e reinicie o PhotoCraft para tentar a aceleração por GPU novamente. A renderização pela CPU continua ativa nesta sessão.
+	Save your work and restart STAR Photo to retry GPU acceleration. CPU rendering remains active for this session.	Salve seu trabalho e reinicie o STAR Photo para tentar a aceleração por GPU novamente. A renderização pela CPU continua ativa nesta sessão.
 	GPU device was lost; using the CPU renderer.	O dispositivo da GPU foi perdido; usando o renderizador da CPU.
 	GPU error; using the CPU renderer.	Erro da GPU; usando o renderizador da CPU.
 	Monitor profile: {profile}	Perfil do monitor: {profile}
@@ -4288,7 +4288,7 @@ layerLabel	No Color	Sem cor
 	Preferences were reset: {error}	As preferências foram redefinidas: {error}
 	Couldn't save preferences: {error}. Retrying…	Não foi possível salvar as preferências: {error}. Tentando novamente…
 	Preferences can't be saved	Não é possível salvar as preferências
-	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	O PhotoCraft continua tentando; até que um salvamento dê certo, as alterações nas preferências serão perdidas ao fechar.
+	STAR Photo keeps retrying; until a save succeeds, preference changes are lost when it closes.	O STAR Photo continua tentando; até que um salvamento dê certo, as alterações nas preferências serão perdidas ao fechar.
 	Invalid panel layout; restored the default dock	Layout de painéis inválido; a disposição padrão dos painéis foi restaurada
 	Recovered {name}	Recuperado: {name}
 	Autosave failed: {error}	Falha ao salvar automaticamente: {error}

@@ -1093,8 +1093,8 @@
 	Drop an image or PSD anywhere to open it.	Sleep een afbeelding of PSD ergens naartoe om deze te openen.
 	Native file drag-and-drop is unavailable	Bestanden slepen en neerzetten is niet beschikbaar
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Bestanden slepen en neerzetten wordt nog niet ondersteund onder Wayland. Gebruik Bestand › Openen, of kopieer de afbeelding in je bestandsbeheerder en plak deze met {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Start PhotoCraft onder XWayland om bestanden neer te zetten: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Of zet Voorkeuren › Prestaties › Linux-weergaveserver op X11: PhotoCraft start dan altijd onder XWayland.
+	To drop files, start STAR Photo under XWayland: `{command}`	Start STAR Photo onder XWayland om bestanden neer te zetten: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: STAR Photo then always starts under XWayland.	Of zet Voorkeuren › Prestaties › Linux-weergaveserver op X11: STAR Photo start dan altijd onder XWayland.
 	Edit › Paste	Bewerken › Plakken
 	Duplicate Layers…	Lagen dupliceren…
 	Duplicate style	Stijl dupliceren
@@ -2088,7 +2088,7 @@
 	System Info	Systeeminformatie
 	More panels	Meer panelen
 	More documents	Meer documenten
-	These settings aren't available in PhotoCraft yet.	Deze instellingen zijn nog niet beschikbaar in PhotoCraft.
+	These settings aren't available in STAR Photo yet.	Deze instellingen zijn nog niet beschikbaar in STAR Photo.
 	Graphics	Grafisch
 	Reset GPU Backend	GPU-backend herstellen
 	Applies at next launch.	Wordt toegepast bij de volgende start.
@@ -2298,7 +2298,7 @@
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Automatisch gebruikt GPU-versnelling indien beschikbaar en valt bij fouten terug op CPU-rendering.
 	Switched to CPU rendering	Overgeschakeld naar CPU-rendering
 	GPU acceleration could not continue. Your documents are unchanged.	GPU-versnelling kon niet doorgaan. Je documenten zijn ongewijzigd.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft gebruikt de CPU-beeldcompositor. Het venster kan nog steeds je grafische adapter gebruiken.
+	STAR Photo is using the CPU image compositor. The window may still use your graphics adapter.	STAR Photo gebruikt de CPU-beeldcompositor. Het venster kan nog steeds je grafische adapter gebruiken.
 	Retry GPU requires a restart. Save your work first.	GPU opnieuw proberen vereist een herstart. Sla eerst je werk op.
 	Retry GPU tries the graphics processor again now.	GPU opnieuw proberen probeert de grafische processor nu opnieuw.
 	GPU acceleration resumed.	GPU-versnelling hervat.
@@ -3825,7 +3825,7 @@ cameraData	Lens	Lens
 	There is no crop size or ratio to save	Er is geen uitsnijformaat of verhouding om op te slaan
 	Search settings…	Instellingen zoeken…
 	No matching settings	Geen overeenkomende instellingen
-	PhotoCraft — Screen Color Picker	PhotoCraft — Schermkleurkiezer
+	STAR Photo — Screen Color Picker	STAR Photo — Schermkleurkiezer
 # Edit › Content-Aware Fill workspace
 	Sampling Brush Tool	Gereedschap Monsterpenseel
 	Sampling Area Overlay	Overlay van monstergebied
@@ -4021,17 +4021,17 @@ curves	Smooth	Vloeiend maken
 	Shadow Tint	Schaduwtint
 # PhotoCraft release checks.
 	Check for Updates…	Controleren op updates…
-	PhotoCraft Updates	PhotoCraft-updates
+	STAR Photo Updates	STAR Photo-updates
 	Checking for updates…	Controleren op updates…
 	Open the release page to choose an installer for your system.	Open de releasepagina om een installatieprogramma voor uw systeem te kiezen.
 	Open Download Page	Downloadpagina openen
-	PhotoCraft is up to date.	PhotoCraft is bijgewerkt.
+	STAR Photo is up to date.	STAR Photo is bijgewerkt.
 	Could not check for updates.	Kan niet controleren op updates.
 	Updates have not been checked yet.	Er is nog niet op updates gecontroleerd.
 	Check Again	Opnieuw controleren
 	Automatically Check for Updates	Automatisch op updates controleren
 	Installed version: {version}	Geïnstalleerde versie: {version}
-	PhotoCraft {version} is available.	PhotoCraft {version} is beschikbaar.
+	STAR Photo {version} is available.	STAR Photo {version} is beschikbaar.
 # History panel › History Brush source (#2966)
 	Paints from the History panel's source state	Schildert vanuit de bronstatus van het deelvenster Geschiedenis
 	Sets the source for the history brush	Stelt de bron voor het historiepenseel in
@@ -4067,9 +4067,9 @@ curves	Smooth	Vloeiend maken
 	Bicubic Smoother	Bicubisch vloeiender
 	Bicubic Sharper	Bicubisch scherper
 	Pasting from other apps is unavailable	Plakken vanuit andere apps is niet beschikbaar
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft heeft in deze sessie geen toegang tot het systeemklembord. Onder Wayland verbergt een Flatpak-sandbox het protocol waarmee afbeeldingen uit andere apps worden gelezen.
-	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Om vanuit andere apps te plakken, start je PhotoCraft onder XWayland: `{command}`
-	Nothing to paste: PhotoCraft can't read the system clipboard here	Niets om te plakken: PhotoCraft kan het systeemklembord hier niet lezen
+	STAR Photo can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	STAR Photo heeft in deze sessie geen toegang tot het systeemklembord. Onder Wayland verbergt een Flatpak-sandbox het protocol waarmee afbeeldingen uit andere apps worden gelezen.
+	To paste from other apps, start STAR Photo under XWayland: `{command}`	Om vanuit andere apps te plakken, start je STAR Photo onder XWayland: `{command}`
+	Nothing to paste: STAR Photo can't read the system clipboard here	Niets om te plakken: STAR Photo kan het systeemklembord hier niet lezen
 	Delete this set	Deze set verwijderen
 	New Set…	Nieuwe set…
 	PhotoCraft Defaults	PhotoCraft-standaard
