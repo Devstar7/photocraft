@@ -1,0 +1,61 @@
+name: Finalize STAR7 branding
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Apply reviewed branding and start CI and Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json, os, urllib.request
+          from pathlib import Path
+          def api(path, data=None, method=None):
+              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/'+path,data=None if data is None else json.dumps(data).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'},method=method)
+              with urllib.request.urlopen(req) as r:
+                  body=r.read()
+                  return json.loads(body) if body else None
+          base=api('git/ref/heads/main')['object']['sha']
+          assert base==os.environ['GITHUB_SHA'], 'main changed; rerun safely'
+          commit=api('git/commits/'+base)
+          rules={
+            'crates/ui-egui/src/dialogs.rs': [('PhotoCraft — an open-source, native image editor written in Rust.','STAR Photo — an open-source, native image editor written in Rust.'),('"About PhotoCraft"','"About STAR Photo"')],
+            'crates/engine/src/shell_commands.rs': [('"About PhotoCraft"','"About STAR Photo"')],
+            '.github/workflows/release.yml': [('app-title: PhotoCraft','app-title: STAR Photo')]
+          }
+          for file in ['crates/ui-egui/src/menus/tests.rs','crates/ui-egui/src/menus/native_menu/tests.rs','crates/ui-egui/src/menus/menu_nav/tests.rs','crates/ui-egui/src/dialogs/credits/ui_tests.rs','apps/photocraft/tests/mac_menu_appkit.rs']:
+              rules[file]=[('About PhotoCraft','About STAR Photo'),('Quit PhotoCraft','Quit STAR Photo'),('Hide PhotoCraft','Hide STAR Photo'),('"PhotoCraft"','"STAR Photo"')]
+          entries=[]
+          for file,reps in rules.items():
+              src=Path(file).read_text(); out=src
+              for a,b in reps: out=out.replace(a,b)
+              if out!=src: entries.append({'path':file,'mode':'100644','type':'blob','content':out})
+          keys=['About PhotoCraft','Quit PhotoCraft','Hide PhotoCraft','PhotoCraft — an open-source, native image editor written in Rust.']
+          for p in Path('crates/ui-egui/src/i18n').glob('*.tsv'):
+              src=p.read_text(); out=src
+              for line in src.splitlines():
+                  parts=line.split('\t')
+                  if len(parts)==3 and parts[1] in keys:
+                      out=out.replace(line,'\t'.join([parts[0],parts[1].replace('PhotoCraft','STAR Photo'),parts[2].replace('PhotoCraft','STAR Photo')]))
+              seen=set()
+              for line in out.splitlines():
+                  if not line or line.startswith('#'): continue
+                  parts=line.split('\t'); assert len(parts)==3,(str(p),line)
+                  key=(parts[0],parts[1]); assert key not in seen,(str(p),key); seen.add(key)
+              if src!=out: entries.append({'path':str(p),'mode':'100644','type':'blob','content':out})
+          assert entries, 'Already applied'
+          tree=api('git/trees',{'base_tree':commit['tree']['sha'],'tree':entries})
+          saved=api('git/commits',{'message':'Finalize STAR Photo Help/About branding and translations','tree':tree['sha'],'parents':[base]})
+          api('git/refs/heads/main',{'sha':saved['sha'],'force':False},'PATCH')
+          api('actions/workflows/ci.yml/dispatches',{'ref':'main'})
+          api('actions/workflows/release.yml/dispatches',{'ref':'main'})
+          print('STAR Photo saved: '+saved['sha']+'; CI and Release requested')
