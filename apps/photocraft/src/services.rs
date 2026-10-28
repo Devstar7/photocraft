@@ -565,7 +565,9 @@ fn shell_word(s: &str) -> String {
 /// The release-check transport, or `None` inside Flatpak: the sandbox has no network (see the
 /// manifest's finish-args) and `flatpak update` owns updates there.
 fn update_transport(flatpak_id: Option<&std::ffi::OsStr>) -> Option<photocraft_engine::updates_cmds::CheckFn> {
-    flatpak_id.is_none().then(crate::updates::service)
+    // STAR7: updates are distributed only through the STAR7 Suite portal, never the upstream project.
+    let _ = (flatpak_id, crate::updates::service);
+    None
 }
 
 pub fn native(automation: Option<photocraft_automation::AuthorizedWorkspace>) -> Services {

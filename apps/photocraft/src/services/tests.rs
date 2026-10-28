@@ -184,7 +184,7 @@ fn open_filters_keep_literal_extensions_on_windows_and_macos() {
 #[test]
 fn flatpak_builds_have_no_update_transport() {
     assert!(update_transport(Some(std::ffi::OsStr::new("ai.storyteller.photocraft"))).is_none());
-    assert!(update_transport(None).is_some());
+    assert!(update_transport(None).is_none(), "STAR7 builds never check the upstream project for updates");
 }
 
 #[test]
