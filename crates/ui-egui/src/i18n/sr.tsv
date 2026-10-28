@@ -773,7 +773,7 @@
 	Timeline	Vremenska linija
 	Tool Presets	Šabloni alatki
 	Tools	Alatke
-	About PhotoCraft	O programu PhotoCraft
+	About STAR Photo	O programu STAR Photo
 	PhotoCraft Website	Veb-sajt PhotoCraft-a
 	PhotoCraft on GitHub	PhotoCraft na GitHub-u
 	ArtCraft Website	Veb-sajt ArtCraft-a
@@ -1317,7 +1317,7 @@
 	Photo Filter	Foto-filter
 	PhotoCraft	PhotoCraft
 	PhotoCraft Manages Colors	PhotoCraft upravlja bojama
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — izvorni uređivač slika otvorenog koda, napisan u Rust-u.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — izvorni uređivač slika otvorenog koda, napisan u Rust-u.
 	Pin Depth:	Dubina čiode:
 	Pixel Length:	Dužina u pikselima:
 	Pixels/Centimeter	Piksela/centimetar
@@ -3333,7 +3333,7 @@ layerLabel	No Color	Bez boje
 	Restart Required	Potrebno je ponovno pokretanje
 	Restart	Ponovo pokreni
 	Quit	Izađi
-	Quit PhotoCraft	Izađi iz PhotoCraft-a
+	Quit STAR Photo	Izađi iz STAR Photo-a
 	Close Window	Zatvori prozor
 	New Window	Novi prozor
 	Open Image	Otvori sliku

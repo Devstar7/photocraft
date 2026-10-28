@@ -211,7 +211,7 @@
 	Distort	Παραμόρφωση
 	Pixelate	Εικονοστοιχείωση
 	Render	Απόδοση
-	About PhotoCraft	Πληροφορίες για το PhotoCraft
+	About STAR Photo	Πληροφορίες για το STAR Photo
 
 # Consolidated Greek localization additions
 	Content-Aware Fill…	Γέμισμα βάσει περιεχομένου…
@@ -715,7 +715,7 @@
 	Restart Required	Απαιτείται επανεκκίνηση
 	Restart	Επανεκκίνηση
 	Quit	Έξοδος
-	Quit PhotoCraft	Έξοδος από το PhotoCraft
+	Quit STAR Photo	Έξοδος από το STAR Photo
 	Close Window	Κλείσιμο παραθύρου
 	New Window	Νέο παράθυρο
 	Open Image	Άνοιγμα εικόνας
@@ -812,7 +812,7 @@
 	Perspective Warp is not active	Ο μετασχηματισμός προοπτικής δεν είναι ενεργός
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Μετασχηματισμός προοπτικής: σχεδιάστε επίπεδα σύμφωνα με την προοπτική της εικόνας και έπειτα επιλέξτε Παραμόρφωση
 	PhotoCraft Manages Colors	Διαχείριση χρωμάτων από το PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — εγγενής εφαρμογή επεξεργασίας εικόνας ανοικτού κώδικα, γραμμένη σε Rust.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — εγγενής εφαρμογή επεξεργασίας εικόνας ανοικτού κώδικα, γραμμένη σε Rust.
 	Pixels/Centimeter	Εικονοστοιχεία/εκατοστό
 	Pixels/Inch	Εικονοστοιχεία/ίντσα
 	Position and Size	Θέση και μέγεθος

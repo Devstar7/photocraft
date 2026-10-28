@@ -802,7 +802,7 @@
 	Timeline	Línea de tiempo
 	Tool Presets	Ajustes preestablecidos de herramienta
 	Tools	Herramientas
-	About PhotoCraft	Acerca de PhotoCraft
+	About STAR Photo	Acerca de STAR Photo
 	PhotoCraft Website	Sitio web de PhotoCraft
 	PhotoCraft on GitHub	PhotoCraft en GitHub
 	ArtCraft Website	Sitio web de ArtCraft
@@ -1367,7 +1367,7 @@
 	Photo Filter	Filtro de fotografía
 	PhotoCraft	PhotoCraft
 	PhotoCraft Manages Colors	PhotoCraft gestiona el color
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — un editor de imágenes nativo y de código abierto escrito en Rust.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — un editor de imágenes nativo y de código abierto escrito en Rust.
 	Pin Depth:	Profundidad de la chincheta:
 	Pixel Length:	Longitud en píxeles:
 	Pixels/Centimeter	Píxeles/centímetro
@@ -3399,7 +3399,7 @@ layerLabel	No Color	Sin color
 	Restart Required	Es necesario reiniciar
 	Restart	Reiniciar
 	Quit	Salir
-	Quit PhotoCraft	Salir de PhotoCraft
+	Quit STAR Photo	Salir de STAR Photo
 	Close Window	Cerrar ventana
 	New Window	Nueva ventana
 	Open Image	Abrir imagen

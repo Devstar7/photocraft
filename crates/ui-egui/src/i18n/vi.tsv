@@ -663,7 +663,7 @@
 	3-up Vertical	3 cửa sổ dọc
 	4-up	4 cửa sổ
 	6-up	6 cửa sổ
-	About PhotoCraft	Giới thiệu PhotoCraft
+	About STAR Photo	Giới thiệu STAR Photo
 	Actions	Thao tác
 	ArtCraft Website	Trang web ArtCraft
 	Brush Settings	Thiết lập cọ
@@ -1573,7 +1573,7 @@ cameraRaw	Shadows	Vùng tối
 	About	Giới thiệu
 	Contributors	Người đóng góp
 	Models	Mô hình
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — trình chỉnh sửa ảnh gốc mã nguồn mở viết bằng Rust.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — trình chỉnh sửa ảnh gốc mã nguồn mở viết bằng Rust.
 	Version {version}	Phiên bản {version}
 	Unsaved changes	Thay đổi chưa lưu
 	Answer the unsaved-changes prompt first	Hãy trả lời hộp thoại thay đổi chưa lưu trước

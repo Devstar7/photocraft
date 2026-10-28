@@ -539,7 +539,7 @@
 	Hide All	Скрыть все
 
 # Help
-	About PhotoCraft	О программе PhotoCraft
+	About STAR Photo	О программе STAR Photo
 	PhotoCraft Website	Сайт PhotoCraft
 	PhotoCraft on GitHub	PhotoCraft на GitHub
 	Report an Issue…	Сообщить о проблеме…
@@ -2205,7 +2205,7 @@
 	Paint Overlay	Перекрытие краской
 	Pattern Size	Размер паттерна
 	PhotoCraft	PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — открытый нативный графический редактор на Rust.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — открытый нативный графический редактор на Rust.
 	Position and Size	Положение и размер
 	Preserve Details	Сохранять детали
 	Preserve Luminosity	Сохранять светлоту
@@ -4196,7 +4196,7 @@ curves	Smooth	Сгладить
 	Pyramids	Пирамиды
 	Quick Actions	Быстрые действия
 	Quit	Выход
-	Quit PhotoCraft	Выйти из PhotoCraft
+	Quit STAR Photo	Выйти из STAR Photo
 	Quit {app}	Выйти из {app}
 	R G B	R G B
 	R g b	R g b

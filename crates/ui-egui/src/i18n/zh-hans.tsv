@@ -806,7 +806,7 @@
 	Timeline	时间轴
 	Tool Presets	工具预设
 	Tools	工具
-	About PhotoCraft	关于 PhotoCraft
+	About STAR Photo	关于 STAR Photo
 	PhotoCraft Website	PhotoCraft 网站
 	PhotoCraft on GitHub	PhotoCraft 的 GitHub 页面
 	ArtCraft Website	ArtCraft 网站
@@ -1398,7 +1398,7 @@
 	Photo Filter	照片滤镜
 	PhotoCraft	PhotoCraft
 	PhotoCraft Manages Colors	由 PhotoCraft 管理颜色
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — 用 Rust 编写的开源原生图像编辑器。
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — 用 Rust 编写的开源原生图像编辑器。
 	Pin Depth:	控制点深度：
 	Pixel Length:	像素长度：
 	Pixels/Centimeter	像素/厘米

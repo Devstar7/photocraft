@@ -805,7 +805,7 @@
 	Timeline	Časová osa
 	Tool Presets	Přednastavení nástrojů
 	Tools	Nástroje
-	About PhotoCraft	O aplikaci PhotoCraft
+	About STAR Photo	O aplikaci STAR Photo
 	PhotoCraft Website	Web PhotoCraft
 	PhotoCraft on GitHub	PhotoCraft na GitHubu
 	ArtCraft Website	Web ArtCraft
@@ -1377,7 +1377,7 @@
 	Photo Filter	Fotografický filtr
 	PhotoCraft	PhotoCraft
 	PhotoCraft Manages Colors	Barvy spravuje PhotoCraft
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — nativní editor obrázků s otevřeným zdrojovým kódem napsaný v jazyce Rust.
+	STAR Photo — an open-source, native image editor written in Rust.	STAR Photo — nativní editor obrázků s otevřeným zdrojovým kódem napsaný v jazyce Rust.
 	Pin Depth:	Hloubka špendlíku:
 	Pixel Length:	Délka v pixelech:
 	Pixels/Centimeter	Pixely/centimetr
@@ -3288,7 +3288,7 @@ cameraData	Lens	Objektiv
 	Pyramids	Pyramidy
 	Quick Selection	Rychlý výběr
 	Quit	Ukončit
-	Quit PhotoCraft	Ukončit PhotoCraft
+	Quit STAR Photo	Ukončit STAR Photo
 	Quit {app}	Ukončit {app}
 	RGB	RGB
 	Radial Blur	Radiální rozostření
